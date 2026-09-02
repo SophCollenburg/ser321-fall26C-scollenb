@@ -42,7 +42,7 @@ public class Fraction {
          // create a new instance
          // Fraction *frac = [[Fraction alloc] init];
          if(args.length != 2){
-            System.out.println("Error: Not enough args %d," args.length);
+            System.out.printf("Error: Not enough args %d\n," args.length);
             System.exit(0);
 
             int num = Integer.parseInt(args[0]);
