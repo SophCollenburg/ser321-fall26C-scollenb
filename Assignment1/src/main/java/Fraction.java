@@ -44,6 +44,7 @@ public class Fraction {
          if(args.length != 2){
             System.out.println("Error: Incorrect args");
             System.exit(0);
+         }
 
             int num = Integer.parseInt(args[0]);
             int den = Integer.parseInt(args[1]);
