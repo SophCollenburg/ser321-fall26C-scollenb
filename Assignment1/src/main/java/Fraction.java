@@ -41,11 +41,18 @@ public class Fraction {
       try {
          // create a new instance
          // Fraction *frac = [[Fraction alloc] init];
+         if(args.length != 2){
+            System.out.println("Error: Not enough args %d," args.length);
+            System.exit(0);
+
+            int num = Integer.parseInt(args[0]);
+            int den = Integer.parseInt(args[1]);
+            
          Fraction frac = new Fraction();
 
          // set the values
-         frac.setNumerator(1);
-         frac.setDenominator(3);
+         frac.setNumerator(num);
+         frac.setDenominator(den);
 
          // print it
          System.out.print("The fraction is: ");
